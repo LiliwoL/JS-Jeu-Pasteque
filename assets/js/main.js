@@ -76,6 +76,8 @@ let currentFruit = null;
 let interval = null;
 let disableAction = null;
 
+let baseUrl = "/Javascript-Jeu-Pasteque/";
+
 function addCurrentFruit(){
     const randomFruit = getRandomFruit();
 
@@ -182,7 +184,7 @@ Events.on(engine, "collisionStart", (event) => {
                 {
                     render: {
                         fillStyle: newFruit.color,
-                        sprite: { texture: `assets/img/${newFruit.label}.png` },
+                        sprite: { texture: `${baseUrl}assets/img/${newFruit.label}.png` },
                     },
                     label: newFruit.label,
                 }

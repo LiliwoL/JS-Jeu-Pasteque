@@ -86,7 +86,7 @@ function addCurrentFruit(){
          isSleeping: true,
          render: {
              fillStyle: randomFruit.color,
-             sprite: { texture: `/assets/img/${randomFruit.label}.png` }
+             sprite: { texture: `${baseUrl}assets/img/${randomFruit.label}.png` }
          },
          restitution: 0.2
      });

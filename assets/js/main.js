@@ -182,7 +182,7 @@ Events.on(engine, "collisionStart", (event) => {
                 {
                     render: {
                         fillStyle: newFruit.color,
-                        sprite: { texture: `assets/img/${newFruit.label}.png` },
+                        sprite: { texture: `/Javascript-Jeu-Pasteque/assets/img/${newFruit.label}.png` },
                     },
                     label: newFruit.label,
                 }

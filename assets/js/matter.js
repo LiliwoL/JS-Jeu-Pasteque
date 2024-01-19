@@ -9315,7 +9315,7 @@
 
                                     c.translate(part.position.x, part.position.y);
                                     c.rotate(part.angle);
-
+                                    console.log(texture);
                                     c.drawImage(
                                         texture,
                                         texture.width * -sprite.xOffset * sprite.xScale,
